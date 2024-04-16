@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[id='id']{
+            background-color: aqua;
+        }
+        input[id='pw']{
+            background-color:darkblue;
+        }
+        h1::before{
+            content: "hello";
+        }
+        li:nth-of-type(3n){
+            color: blueviolet;
+            list-style-image: url();
+        }
+        #para{
+            font-size: 70px;
+        }
+        #chil{
+            font-size: 0.5em;
+        }
+        #doublechil{
+            font-size: 0.25em;
+        }
+    </style>
+</head>
+<body>
+    <h1>index20240416.html</h1>
+    <form action="" method="get">
+        <label for="id">아이디</label>
+        <input type="text" name="" id="id"><br>
+        <label for="pw">비밀번호</label>
+        <input type="password" name="" id="pw"><br>
+        <ul>
+            <li id="1">item1</li>
+            <li id="2">item2</li>
+            <li id="3">item3</li>
+            <li id="4">item4</li>
+            <li id="5">item5</li>
+            <li id="6">item6</li>
+            <li id="7">item7</li>
+            <li id="8">item8</li>
+            <li id="9">item9</li>
+            <li id="10">item10</li>
+            <li id="11">item11</li>
+            <li id="12">item12</li>
+            <li id="13">item13</li>
+            <li id="14">item14</li>
+            <li id="15">item15</li>
+            <li id="16">item16</li>
+            <li id="17">item17</li>
+            <li id="18">item18</li>
+            <li id="19">item19</li>
+            <li id="20">item20</li>
+        </ul>
+        <h1>글꼴 크기 연습</h1>
+        <div id="para">부모요소입니다
+            <div id="chil">자식요소입니다
+                <div id="doublechil">손자요소입니다</div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
